@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>SEEMode.Example Syntax</string> <!-- Change bundle identifier. Must start with "SEEMode." -->
+	<string>SEEMode.gitCommit</string>
 	<key>CFBundleName</key>
-	<string>Template</string> <!-- Change bundle name. -->
+	<string>gitCommit</string>
     <key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
     <key>CFBundleGetInfoString</key>
-	<string>1.0, Copyright Author 2004</string> <!-- Change author. -->
+	<string>1.0, Jungle Candy 2009</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>

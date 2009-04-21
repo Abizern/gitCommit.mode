@@ -1,4 +1,6 @@
 h2. gitCommit SubEthaEdit mode.
 
+Doesn't work perfectly, yet. I've yet to set the keyword colours. 
+
 
 

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Abizern/gitcommit.mode @ GitHub</title>
+	
+	<style type="text/css">
+		body {
+  		margin-top: 1.0em;
+  		background-color: #97c84d;
+		  font-family: "helvetica"; 
+  		color: #000000;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+		h1 { font-size: 3.8em; color: #6837b2; margin-bottom: 3px; }
+		h1 .small { font-size: 0.4em; }
+		h1 a { text-decoration: none }
+		h2 { font-size: 1.5em; color: #6837b2; }
+    h3 { text-align: center; color: #6837b2; }
+    a { color: #6837b2; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+		pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+	</style>
+	
+</head>
+
+<body>
+  <a href="http://github.com/Abizern/gitcommit.mode"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/Abizern/gitcommit.mode/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/Abizern/gitcommit.mode/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+      
+    <h1><a href="http://github.com/Abizern/gitcommit.mode">gitcommit.mode</a> 
+      <span class="small">by <a href="http://github.com/Abizern">Abizern</a></small></h1>
+
+    <div class="description">
+      A SubEthaEdit mode that adds some syntax colouring to git commit messages.
+
+Inspired by this post. http://schinckel.net/2008/04/26/mercurial-with-os-x-gui-tools/
+    </div>
+
+    <p>Nothing too special, just a slightly easier way of adding a bit of syntax colouring to git commit messages by using SubEthaEdit as the editor on Mac OS X.
+
+The colouring isn't carried over into the log. Well, maybe not yet.</p><h2>Dependencies</h2>
+<p>You need to have git installed and SubEthaEdit.</p>
+<h2>Install</h2>
+<p>SubEthaEdit
+Download the gitCommit.mode to your local machine. Double clicking on it will give you the option of installing it for the current user or for all users.
+
+In git add the following line to the .gitconfig file [core] section.
+
+[core]
+	editor = /usr/bin/see -w -r -o new-window -j 'Git editor' -m gitCommit
+
+You might have to edit this if your see tool isn't in the same location.
+
+Now, whenever you do a git commit without a -m inline commit, it will open SubEthaEdit for you to enter the comment.</p>
+<h2>License</h2>
+<p>Attribution would be nice, but not required.
+
+If you have changes, I'd welcome forks. </p>
+<h2>Authors</h2>
+<p>Abizer Nasir (abizern@mac.com)<br/><br/>      </p>
+<h2>Contact</h2>
+<p> (abizern@mac.com)<br/>      </p>
+
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/Abizern/gitcommit.mode/zipball/master">zip</a> or
+      <a href="http://github.com/Abizern/gitcommit.mode/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/Abizern/gitcommit.mode</pre>
+    </p>
+      
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/Abizern/gitcommit.mode">Abizern/gitcommit.mode</a>
+    </div>
+    
+  </div>
+
+  
+</body>
+</html>

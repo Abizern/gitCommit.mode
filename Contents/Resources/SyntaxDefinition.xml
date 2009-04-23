@@ -4,20 +4,24 @@
     <head>
 
         <name>gitCommit</name>
-
-        <!-- optional to add spelling-dicitionary autocomplete words -->
         <autocompleteoptions use-spelling-dictionary="yes" />
-
         <charsintokens>
             <![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+-=@|'"]]>
         </charsintokens> 
     </head>
 
     <states>    
-        <default id="Base" color="#000" inverted-color="#fff">
-            <keywords id="Keywords" color="#6C0540" casesensitive="no" useforautocomplete="yes">
-  				<string>squash</string>
-				<string>pick</string>
+        <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal">
+            <keywords id="squash" color="#6C0540" casesensitive="yes">
+  				<regex>^(squash)</regex>
+            </keywords>
+            
+            <keywords id="pick" color="#6C0540" casesensitive="yes">
+  				<regex>^(pick)</regex>
+            </keywords>
+            
+            <keywords id="edit" color="#6C0540" casesensitive="yes">
+  				<regex>^(edit)</regex>
             </keywords>
             
             <state id="Comment" color="#236E25" font-style="italic">

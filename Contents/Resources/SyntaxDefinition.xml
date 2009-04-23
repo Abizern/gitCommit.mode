@@ -12,19 +12,23 @@
 
     <states>    
         <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal">
-            <keywords id="squash" color="#6C0540" casesensitive="yes">
-  				<regex>^(squash)</regex>
+            <keywords id="squash" color="#800040" casesensitive="yes" font-style="normal">
+  				<regex>^(squash)\s</regex>
             </keywords>
             
-            <keywords id="pick" color="#6C0540" casesensitive="yes">
-  				<regex>^(pick)</regex>
+            <keywords id="pick" color="#800040" casesensitive="yes" font-style="normal">
+  				<regex>^(pick)\s</regex>
             </keywords>
             
-            <keywords id="edit" color="#6C0540" casesensitive="yes">
-  				<regex>^(edit)</regex>
+            <keywords id="edit" color="#800040" casesensitive="yes" font-style="normal">
+  				<regex>^(edit)\s</regex>
             </keywords>
             
-            <state id="Comment" color="#236E25" font-style="italic">
+            <keywords id="sha-1" color="#FF8000" casesensitive="yes" font-style="normal">
+  				<regex>^\w{1,6}\s([a-f0-9]{2,40})\s</regex>
+            </keywords>
+            
+            <state id="Comment" color="#008040" font-style="normal">
                 <begin><regex>^#</regex></begin>
                 <end><regex>[\n\r]</regex></end>
             </state>

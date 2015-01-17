@@ -2,6 +2,11 @@ h2. gitCommit SubEthaEdit mode.
 
 Rudimentary syntax colouring for 'pick', 'squash' and 'edit'
 
+h3. Update 17th January, 2015
+
+This is an old project that hasn't had any attention in a long while and that I don't use myself anymore.
+It is only being left for archival reasons and is unlikely to be changed.
+
 
 
 
